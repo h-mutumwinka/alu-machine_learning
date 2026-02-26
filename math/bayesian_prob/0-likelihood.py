@@ -46,4 +46,4 @@ def likelihood(x, n, P):
     factorial = np.math.factorial
     fact_coefficient = factorial(n) / (factorial(n - x) * factorial(x))
     likelihood = fact_coefficient * (P ** x) * ((1 - P) ** (n - x))
-    return likelihood   
+    return likelihood
